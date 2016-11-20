@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sweet Shop Order Form</title>
+</head>
+<body>
+	<form method="post" action="send.php">
+		<h1>Sweet Shop Havana Club</h1>
+		<h3>Order form</h3>
+		
+		<label for="user">User</label><br>
+		<input id="user" type="text" name="user" placeholder="Enter username"></p>
+		<label  for="password">Password</label><br>
+		<input id="password" type="password" name="password"></p>
+		<p>
+			Make your choice:</p>
+			<p>
+				<label for="icecream">Ice cream </label>
+				<input id="icecream" type="checkbox" name="icecream" value="icecream"><br>
+				<label for="pancake">Pancake</label>
+				<input id="pancake" type="checkbox" name="pancake" value="pancake"><br>
+				<label for="cake">Cake</label>	
+				<input id="cake" type="checkbox" name="cake" value="cake"><br>
+			</p>
+			<p>Topping?</p>
+			<p>
+				<select name="topping">
+					<option value="strawberry">Strawberry</option>
+					<option value="chocolate">Chocolate</option>
+					<option value="honey">Honey</option>
+				</select>
+			</p>
+			<p>Size?</p>
+			<p>
+				<select name="size" multiple>
+					<option value="large">Large</option>
+					<option value="medium">Medium</option>
+					<option value="small">Small</option>
+				</select>
+				*Please, press ctrl to make multiple choice!
+			</p>
+			<p>Delivery?</p>
+			<p>
+				<input type="radio" name="delivery" value="yes" checked>I want delivery!<br>
+				<input type="radio" name="delivery" value="no">I'll take it!<br>
+			</p>
+			<p>
+				<input type="file" name="file" accept="image/*">
+			</p>
+			<input type="submit" value="Send my order!">
+		</form>
+	</body>
+	</html>
