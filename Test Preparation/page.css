@@ -1,37 +1,32 @@
-*{
+*{   
 	margin:0;
 	padding: 0;
 }
-body{
+body{     /* zaadavam font i razmer za tsialata stranitsa*/
 	font-family: Verdana, serif;
 	font-size: 14px;
 }
 header{
 	width: 100%;
-position: relative;
-height: 60px;
-background: green;
+	position: relative;
+	height: 60px;
+	background: green;
 }
 main{
 	position: relative;
 	width: 100%;
-background: red;
-padding-bottom: 20px;
-
-
+	background: red;
+	padding-bottom: 20px;
 }
 footer{width: 100%;
-height: 50px;
-background: green;
+	height: 50px;
+	background: green;
 }
-
 #top-left{
 	padding:25px 0;
 	width:36%;
-	
 }
 .small{
-	
 	background: #000;
 	color: #fff;
 	margin-top:10px;
@@ -39,23 +34,20 @@ background: green;
 }
 #pictures{
 	width: 46%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: blue;
-    padding: 1%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: blue;
+	padding: 1%;
 }
 img{
-	margin:20px 1%;
+	margin:20px 1%;  /*moga da izpolzvam % i px ednovremenno*/
 }
 #bottom-left{
-
 	width: 36%;
 	padding: 1%;
 	background: #000;
-	color: #fff;
-	
-	
+	color: #fff;	
 }
 #bottom-right{
 	position: absolute;
@@ -65,5 +57,4 @@ img{
 	padding: 1%;
 	background: #000;
 	color: #fff;
-	
 }
